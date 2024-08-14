@@ -1,0 +1,71 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.fullscreen-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 使用视口宽度 */
+  height: 100%; /* 使用视口高度 */
+  object-fit: cover; /* 保持图片的宽高比并覆盖整个区域 */
+}
+.text-container {
+  position: relative; /* 改为相对定位 */
+  margin: 20px; /* 添加外边距 */
+  padding: 20px; /* 添加内边距 */
+  color: rgb(253, 180, 192); /* 文字颜色 */
+  font-size: 1em; /* 文字大小 */
+  font-family: "Helvetica Rounded", "Verdana", "Arial", sans-serif;
+  line-height: 1.5; /* 行高 */
+  width: 80%; /* 宽度 */
+  max-width: 600px; /* 最大宽度 */
+  max-height: 80vh; /* 最大高度，确保滚动条能出现 */
+  overflow-y: auto; /* 允许垂直滚动 */
+}
+/* 文本部分 */
+#salutation {
+  white-space: pre-line;
+  display: inline;
+  font-size: 1.2em; /* 称呼部分文字稍大 */
+  font-weight: bold; /* 称呼部分加粗 */
+  margin-bottom: 8px; /* 称呼部分和正文之间的间距 */
+}
+#p1 {
+  text-indent: 2em; /* 首行缩进 2em */
+}
+#p2 {
+  text-indent: 2em; /* 首行缩进 2em */
+}
+#p3 {
+  text-indent: 2em; /* 首行缩进 2em */
+}
+#p4 {
+  text-indent: 2em; /* 首行缩进 2em */
+}
+#p5 {
+  text-indent: 2em; /* 首行缩进 2em */
+}
+#end1 {
+  white-space: pre-line;
+  font-size: 1.2em; /* 文字稍大 */
+  font-weight: bold; /* 加粗 */
+  margin-bottom: 8px; /* 间距 */
+  text-align: right; /* 对齐到右侧 */
+}
+#end2 {
+  white-space: pre-line;
+  font-size: 1.2em; /* 文字稍大 */
+  font-weight: bold; /* 加粗 */
+  margin-bottom: 8px; /* 间距 */
+  text-align: right; /* 对齐到右侧 */
+}
+#date {
+  white-space: pre-line;
+  font-size: 1.2em; /* 文字稍大 */
+  font-weight: bold; /* 加粗 */
+  margin-bottom: 8px; /* 间距 */
+  text-align: right; /* 对齐到右侧 */
+}
